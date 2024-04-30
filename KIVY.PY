@@ -27,5 +27,5 @@ class RotuloApp(App):
         layout.add_widget(self.lab3)
         return layout
     
-if _name_ == '_main_':
+if __name__ == '_main_':
     RotuloApp().run()
